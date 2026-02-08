@@ -1,12 +1,16 @@
 
+
+
+
   import { defineConfig } from 'vite';
   import react from '@vitejs/plugin-react-swc';
   import path from 'path';
 
   export default defineConfig({
+   base:'/Youthsolutionsdemowbsitre/',
     plugins: [react()],
     resolve: {
-      extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
+      extensions: ['.js', '.jsx', '.ts', '.tsx', å'.json'],
       alias: {
         'vaul@1.1.2': 'vaul',
         'sonner@2.0.3': 'sonner',
