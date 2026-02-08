@@ -7,7 +7,7 @@
   import path from 'path';
 
   export default defineConfig({
-   base:'/Youthsolutionsdemowbsitre/',
+   base:'/Youthsolutionsdemowebsite/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', å'.json'],
